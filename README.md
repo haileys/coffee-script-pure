@@ -6,7 +6,7 @@
     CoffeeScript.compile "console.log 'hello world'", bare: true
       # => "\nconsole.log('hello world');\n"
 
-coffee-script-pure uses the [Twostroke](https://github.com/charliesome/twostroke) - a Javascript interpreter written in Ruby. A compiled and deflated copy of the CoffeeScript compiler is bundled with coffee-script-pure. The Twostroke VM and CoffeeScript environment is initialized the first time you compile script.
+coffee-script-pure uses [Twostroke](https://github.com/charliesome/twostroke) - a Javascript interpreter written in Ruby. A compiled and deflated copy of the CoffeeScript compiler is bundled with coffee-script-pure. The Twostroke VM and CoffeeScript environment is initialized the first time you compile script.
 
 ## Installation
 
