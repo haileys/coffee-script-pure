@@ -13,3 +13,9 @@ A compiled and deflated copy of the CoffeeScript 1.2.0 compiler is bundled with 
 ## Installation
 
     gem install coffee-script-pure
+
+## Does it work?
+
+Mostly. All files in the CoffeeScript compiler except `grammar.coffee` can be compiled successfully by coffee-script-pure.
+
+If you have a program that breaks, I'd love to hear about it.
