@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = "coffee-script-pure"
-  s.version         = "0.0.2"
+  s.version         = "0.0.3"
   s.date            = "2010-01-10"
   s.homepage        = "https://github.com/charliesome/coffee-script-pure"
   s.summary         = "A CoffeeScript compiler is pure Ruby"
@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.email           = "charlie@charliesomerville.com"
   s.required_ruby_version = ">= 1.9.2"
   
-  s.add_dependency  "twostroke", "~> 0.2.2"
+  s.add_dependency  "twostroke", "~> 0.2.3"
 end
